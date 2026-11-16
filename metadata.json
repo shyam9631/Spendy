@@ -1,0 +1,6 @@
+{
+  "name": "Spendy",
+  "description": "Minimalist personal expense tracker with daily safe-to-spend pacing, budget limits, insights, and local persistence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

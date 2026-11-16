@@ -1,0 +1,221 @@
+---
+name: Obsidian Ledger
+colors:
+  surface: '#131315'
+  surface-dim: '#131315'
+  surface-bright: '#39393b'
+  surface-container-lowest: '#0e0e10'
+  surface-container-low: '#1c1b1d'
+  surface-container: '#201f22'
+  surface-container-high: '#2a2a2c'
+  surface-container-highest: '#353437'
+  on-surface: '#e5e1e4'
+  on-surface-variant: '#c4c7c8'
+  inverse-surface: '#e5e1e4'
+  inverse-on-surface: '#313032'
+  outline: '#8e9192'
+  outline-variant: '#444748'
+  surface-tint: '#c6c6c7'
+  primary: '#ffffff'
+  on-primary: '#2f3131'
+  primary-container: '#e2e2e2'
+  on-primary-container: '#636565'
+  inverse-primary: '#5d5f5f'
+  secondary: '#c6c6cf'
+  on-secondary: '#2f3037'
+  secondary-container: '#45464e'
+  on-secondary-container: '#b4b4bd'
+  tertiary: '#ffffff'
+  on-tertiary: '#2f3038'
+  tertiary-container: '#e3e1ec'
+  on-tertiary-container: '#63646c'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#e2e2e2'
+  primary-fixed-dim: '#c6c6c7'
+  on-primary-fixed: '#1a1c1c'
+  on-primary-fixed-variant: '#454747'
+  secondary-fixed: '#e2e1eb'
+  secondary-fixed-dim: '#c6c6cf'
+  on-secondary-fixed: '#1a1b22'
+  on-secondary-fixed-variant: '#45464e'
+  tertiary-fixed: '#e3e1ec'
+  tertiary-fixed-dim: '#c6c5cf'
+  on-tertiary-fixed: '#1a1b22'
+  on-tertiary-fixed-variant: '#46464e'
+  background: '#131315'
+  on-background: '#e5e1e4'
+  surface-variant: '#353437'
+typography:
+  display-lg:
+    fontFamily: Geist
+    fontSize: 48px
+    fontWeight: '600'
+    lineHeight: 52px
+    letterSpacing: -0.03em
+  display-lg-mobile:
+    fontFamily: Geist
+    fontSize: 36px
+    fontWeight: '600'
+    lineHeight: 40px
+    letterSpacing: -0.025em
+  headline-lg:
+    fontFamily: Geist
+    fontSize: 28px
+    fontWeight: '500'
+    lineHeight: 34px
+    letterSpacing: -0.02em
+  headline-md:
+    fontFamily: Geist
+    fontSize: 20px
+    fontWeight: '500'
+    lineHeight: 26px
+    letterSpacing: -0.02em
+  body-lg:
+    fontFamily: Geist
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+    letterSpacing: -0.015em
+  body-md:
+    fontFamily: Geist
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+    letterSpacing: -0.01em
+  body-sm:
+    fontFamily: Geist
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 16px
+    letterSpacing: -0.005em
+  numeric-hero:
+    fontFamily: JetBrains Mono
+    fontSize: 44px
+    fontWeight: '500'
+    lineHeight: 48px
+    letterSpacing: -0.02em
+  numeric-hero-mobile:
+    fontFamily: JetBrains Mono
+    fontSize: 32px
+    fontWeight: '500'
+    lineHeight: 36px
+    letterSpacing: -0.02em
+  numeric-table:
+    fontFamily: JetBrains Mono
+    fontSize: 15px
+    fontWeight: '500'
+    lineHeight: 20px
+    letterSpacing: 0em
+  label-md:
+    fontFamily: Geist
+    fontSize: 13px
+    fontWeight: '500'
+    lineHeight: 16px
+    letterSpacing: -0.01em
+  label-sm:
+    fontFamily: JetBrains Mono
+    fontSize: 11px
+    fontWeight: '400'
+    lineHeight: 14px
+    letterSpacing: 0.04em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-desktop: 1.5rem
+  margin: 1rem
+  margin-tablet: 2rem
+  margin-desktop: 3rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 0.75rem
+  space-lg: 1.25rem
+  space-xl: 2rem
+---
+
+## Brand & Style
+
+The design system embodies an ultra-minimalist, reductionist aesthetic tailored specifically for friction-free financial tracking. Designed for disciplined individuals who demand extreme clarity and rapid interaction, the interface removes all decorative ornament to spotlight numbers and input cadence. 
+
+The aesthetic draws from Swiss Modernism and high-end instrument ergonomics: deep black canvases, surgical hairline borders, high-contrast typography, and subdued secondary zinc values. Every touchpoint feels immediate, tactile, and mathematically precise, transforming mundane expense logging into an effortless daily ritual.
+
+## Colors
+
+The palette is strictly monochromatic and rooted in a pure dark mode space.
+
+- **Background Base**: `#000000` (deep absolute black canvas) and `#09090b` (foundation level).
+- **Surface Elevation**: `#121214` (recessed inputs, underlying track plates) and `#18181b` (elevated cards, modal sheets).
+- **Borders & Dividers**: `rgba(255, 255, 255, 0.08)` for razor-thin hairline structural division. Active states and focused strokes step up to `rgba(255, 255, 255, 0.24)`.
+- **Content Hierarchy**:
+  - **Primary**: `#ffffff` reserved exclusively for prominent financial figures, active input states, and primary action signifiers.
+  - **Secondary**: `#a1a1aa` for standard descriptions, axis marks, and secondary actions.
+  - **Tertiary / Muted**: `#71717a` for timestamps, metadata, inactive states, and category tags.
+
+## Typography
+
+Typography prioritizes extreme legibility, geometric discipline, and optical balance:
+
+- **Geist** drives all narrative content, headers, and UI signifiers. It delivers clean apertures, subtle industrial character, and precise rendering on OLED displays. Tight negative letter-spacing (`-0.02em` to `-0.01em`) ensures a compact, editorial footprint.
+- **JetBrains Mono** is deployed for numerical figures, transaction values, dates, and micro-labels. By enforcing fixed glyph widths and tabular figure presentation (`font-variant-numeric: tabular-nums`), columns align seamlessly across rows, facilitating instant cognitive scanning of balances and sums.
+
+## Layout & Spacing
+
+Layouts follow a fluid single-column model on mobile devices to maximize vertical input speed, scaling into a structured 12-column fixed-max grid (max 720px for dedicated single-stream logging; max 1120px for expanded analytics screens) on desktop interfaces.
+
+- **Mobile (<640px)**: 16px screen edge margins (`margin: 1rem`) ensure thumb reach across key action surfaces. Elements stack sequentially with `space-sm` (8px) or `space-md` (12px) separation.
+- **Tablet / Desktop (≥640px)**: Margins expand progressively (`margin-tablet`, `margin-desktop`), centering the core entry apparatus.
+- **Rhythm**: Component padding maintains strict 4px/8px alignment to sustain a compact, dense density profile without visual congestion.
+
+## Elevation & Depth
+
+Visual hierarchy is constructed entirely through tonal stratification and hairline boundaries rather than dramatic drop shadows.
+
+- **Layer 0 (Canvas)**: True `#000000` ground layer.
+- **Layer 1 (Containers & List Cells)**: Flat fill `#09090b` or `#121214` bounded by a 1px border of `rgba(255, 255, 255, 0.08)`.
+- **Layer 2 (Overlays & Quick-Log Drawers)**: Surface `#18181b` backed by subtle structural ambient shadow (`box-shadow: 0 16px 48px -12px rgba(0, 0, 0, 0.8)`), accompanied by a 1px `rgba(255, 255, 255, 0.12)` top/outer edge highlight.
+- **Focus Elements**: Interactive targets brighten their interior fill or step boundary opacity up to `rgba(255, 255, 255, 0.28)` without changing their dimensional footprint.
+
+## Shapes
+
+The design uses balanced curves to counter the stark contrast of the dark palette:
+
+- Standard interactive controls, list containers, and entry rows employ `rounded` (0.5rem / 8px) or `rounded-lg` (1rem / 16px).
+- Modals, large summary cards, and primary container shields leverage `rounded-xl` (1.5rem / 24px) for a soft framing appearance.
+- Fast-action selectors, tags, and category chips utilize fully rounded contours (`rounded-full`) to offer clear tactile contrast against rectangular content blocks.
+
+## Components
+
+### Buttons
+- **Primary**: Solid `#ffffff` background with `#000000` text, medium weight, `rounded-full` or `rounded-lg`. Zero shadow. Hover state scales down brightness to `#e4e4e7`.
+- **Secondary**: Surface `#18181b` with `#ffffff` text, 1px border of `rgba(255, 255, 255, 0.08)`. Active state shifts border to `rgba(255, 255, 255, 0.24)`.
+- **Ghost / Utility**: Transparent background, `#a1a1aa` text. Transitions to `#ffffff` text and `rgba(255, 255, 255, 0.04)` fill on press.
+
+### Expense Input Fields (Quick-Log Pad)
+- High-priority numeric entry field with transparent background, displaying currency prefix in muted `#71717a` and digits in high-contrast `#ffffff` using `JetBrains Mono` (`numeric-hero`).
+- No underline or bottom border; the sheer scale of the typographic element commands the primary interaction focus.
+- Metadata and category input inputs are enclosed within `#121214` containers featuring 1px `rgba(255, 255, 255, 0.08)` borders and `rounded-lg` radius.
+
+### Chips & Filters
+- Compact pill-shaped elements (`rounded-full`) with padding of `space-xs` vertically and `space-md` horizontally.
+- Unselected: Inactive fill `#09090b`, 1px border `rgba(255, 255, 255, 0.08)`, text `#71717a`.
+- Selected: Subtle white tint fill `rgba(255, 255, 255, 0.12)`, crisp white border `rgba(255, 255, 255, 0.24)`, text `#ffffff`.
+
+### Transaction Lists
+- Border-separated or gap-spaced rows using `#121214` background cards.
+- Left-aligned title (`Geist`, `#ffffff`, `body-md`) stacked over timestamp/category (`Geist`, `#71717a`, `body-sm`).
+- Right-aligned amount rendered in `JetBrains Mono` (`numeric-table`), with `#ffffff` for standard outflows and subtle `#a1a1aa` for recurring entries.
+
+### Checkboxes & Segmented Toggles
+- Custom minimal toggles embedded into hairline-framed enclosures. 
+- Selection indicators employ stark `#ffffff` pips or background sliders moving smoothly across dark zinc wells.
+
+### Quick-Log Floating Action Dock
+- A pinned bottom navigation and capture dock floating over canvas with backdrop blur (`backdrop-blur-md`, background `rgba(9, 9, 11, 0.85)`), held together by a 1px boundary of `rgba(255, 255, 255, 0.08)` and `rounded-full` contour.
